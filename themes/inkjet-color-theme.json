@@ -1,0 +1,71 @@
+{
+	"colors": {
+		"editor.background": "#1e1e1e",
+		"editorCursor.foreground": "#A94744",
+		"editor.foreground": "#C5C8C6",
+		"editorWhitespace.foreground": "#4B4E55",
+		"editor.lineHighlightBackground": "#282A2E",
+		"editor.selectionBackground": "#373B41",
+		"diffEditor.insertedTextBackground": "#608B4E",
+		"diffEditor.removedTextBackground": "#A94744"
+	},
+	"name": "inkjet",
+	"tokenColors": [
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#F8BC41"
+			}
+		},
+		{
+			"name": "Identifier",
+			"scope": "variable.language.this",
+			"settings": {
+				"foreground": "#569CD6"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": "constant.numeric, constant.language, support.constant, constant.character, punctuation.section.embedded, keyword.other.unit",
+			"settings": {
+				"foreground": "#8FBF7F"
+			}
+		},
+		{
+			"name": "Function",
+			"scope": "meta.function entity.name.function, support.function",
+			"settings": {
+				"foreground": "#F8BC41"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#8FBF7F"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage, storage.type",
+			"settings": {
+				"foreground": "#569CD6"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#E09690"
+			}
+		},
+		{
+			"name": "Type",
+			"scope": "support.type, entity.name.type, entity.other.inherited-class",
+			"settings": {
+				"foreground": "#569CD6"
+			}
+		}
+	]
+}

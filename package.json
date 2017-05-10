@@ -1,0 +1,22 @@
+{
+    "name": "inkjet",
+    "displayName": "inkjet",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "chasestarr",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "inkjet",
+                "uiTheme": "vs-dark",
+                "path": "./themes/inkjet-color-theme.json"
+            }
+        ]
+    }
+}
