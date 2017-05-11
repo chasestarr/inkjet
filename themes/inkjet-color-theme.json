@@ -66,6 +66,34 @@
 			"settings": {
 				"foreground": "#569CD6"
 			}
+		},
+		{
+			"name": "Class method",
+			"scope": "meta.definition.method",
+			"settings": {
+				"foreground": "#9CDCFE"
+			}
+		},
+		{
+			"name": "HTML tag outer",
+			"scope": "meta.tag, punctuation.definition.tag",
+			"settings": {
+				"foreground": "#C5C8C6"
+			}
+		},
+		{
+			"name": "HTML tag inner",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#F8BC41"
+			}
+		},
+		{
+			"name": "HTML tag attribute",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#9CDCFE"
+			}
 		}
 	]
 }
